@@ -12,6 +12,7 @@ class InvalidKindError(Exception):
 def first_function(kind=None):
     """
     Return a list of random ingredients as strings.
+    
     :param kind: Optional "kind" of ingredients.
     :type kind: list[str] or None
     :raise lumache.InvalidKindError: If the kind is invalid.
@@ -32,10 +33,12 @@ def get_random_ingredients(kind=None):
     """
     return ["shells", "gorgonzola", "parsley"]
 
-def another_function(kind=None):
+def another_function(kind=None, arg2=None):
     """
     Return a list of random ingredients as strings.
+    
     :param kind: Optional "kind" of ingredients.
+    :param arg2: Optional.
     :type kind: list[str] or None
     :return: The ingredients list.
     :rtype: list[str]
