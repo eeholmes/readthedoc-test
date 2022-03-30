@@ -13,16 +13,15 @@ how to :ref:`installation` the project.
 
    This project is under active development.
 
-Contents
---------
 
 .. toctree::
+   :hidden:
 
    usage
-   api
    
 .. toctree::
    :maxdepth: 2
    :caption: Reference:
+   :hidden:
 
    modules
