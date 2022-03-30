@@ -2,7 +2,7 @@
 import os
 import sys
 # Need this so sphinx can find lumache.py. Change is .py files are elsewhere than root.
-sys.path.insert(0, os.path.abspath('../..'))
+# sys.path.insert(0, os.path.abspath('../..'))
 sys.path.insert(0, os.path.abspath('../../src'))
 
 # -- Project information
