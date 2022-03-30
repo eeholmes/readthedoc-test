@@ -22,12 +22,10 @@ jobs:
           python-version: 3.9
  
       - name: Install dependencies
-#        run: python -m pip install -U sphinx
         run: |
           python -m pip install -U sphinx
           python -m pip install sphinx-rtd-theme
-          sudo apt-get -y install rsync
-        
+         
       - name: make the sphinx docs
         run: |
           make -C docs clean
