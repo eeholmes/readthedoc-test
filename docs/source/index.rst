@@ -20,4 +20,9 @@ Contents
 
    usage
    api
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Reference:
+
    modules
