@@ -1,0 +1,78 @@
+:py:mod:`src.module1`
+=====================
+
+.. py:module:: src.module1
+
+.. autoapi-nested-parse::
+
+   Module1 - the first module
+
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   src.module1.first_function
+   src.module1.get_random_ingredients
+   src.module1.another_function
+
+
+
+Attributes
+~~~~~~~~~~
+
+.. autoapisummary::
+
+   src.module1.__version__
+
+
+.. py:data:: __version__
+   :annotation: = 0.1.0
+
+   
+
+.. py:exception:: InvalidKindError
+
+   Bases: :py:obj:`Exception`
+
+   Raised if the kind is invalid.
+
+
+.. py:function:: first_function(kind=None)
+
+   Return a list of random ingredients as strings.
+
+   :param kind: Optional "kind" of ingredients.
+   :type kind: list[str] or None
+   :raise lumache.InvalidKindError: If the kind is invalid.
+   :return: The ingredients list.
+   :rtype: list[str]
+
+
+.. py:function:: get_random_ingredients(kind=None)
+
+   Return a list of random ingredients as strings.
+   :param kind: Optional "kind" of ingredients.
+   :type kind: list[str] or None
+   :raise lumache.InvalidKindError: If the kind is invalid.
+   :return: The ingredients list.
+   :rtype: list[str]
+
+
+.. py:function:: another_function(kind=None, arg2=None)
+
+   Return a list of random ingredients as strings.
+
+   :param kind: Optional "kind" of ingredients.
+   :param arg2: Optional.
+   :type kind: list[str] or None
+   :return: The ingredients list.
+   :rtype: list[str]
+
+
