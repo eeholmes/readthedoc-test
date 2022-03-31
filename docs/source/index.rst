@@ -12,3 +12,4 @@ This page documents our functions and examples.
    :hidden:
 
    usage
+   contribute
