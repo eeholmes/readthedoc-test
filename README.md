@@ -6,3 +6,8 @@ Automatic documentation generation using [Sphinx-docs](https://www.sphinx-doc.or
 My repo has a GitHub Action set up to build the documentation on any push to the main branch. My repo is modeled off: https://github.com/maltfield/rtd-github-pages
 
 Reference for simple Sphinx with sphinx-apidoc https://shunsvineyard.info/2019/09/19/use-sphinx-for-python-documentation
+
+Using this auto generation: https://sphinx-autoapi.readthedocs.io/en/latest/index.html
+```
+pip install sphinx-autoapi
+```
