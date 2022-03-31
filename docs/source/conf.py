@@ -22,8 +22,12 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    'autoapi.extension',
 #    'sphinxcontrib.apidoc',
 ]
+
+autoapi_type = 'python'
+autoapi_dirs = ['../../src']
 
 #apidoc_module_dir = '../../src'
 #apidoc_output_dir = 'source'
