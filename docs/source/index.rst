@@ -1,4 +1,4 @@
-Welcome to our project documentation!
+Welcome to our project!
 ===================================
 
 This page documents our functions and examples.
