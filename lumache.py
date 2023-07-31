@@ -6,7 +6,7 @@ __version__ = "0.1.0"
 
 
 class InvalidKindError(Exception):
-    """Raised if the kind is invalid. and lel"""
+    """Raised if the kind is invalid. and lesetter"""
     pass
 
 def first_function(kind=None):

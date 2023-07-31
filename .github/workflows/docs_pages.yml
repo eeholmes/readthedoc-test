@@ -1,9 +1,14 @@
 name: docs_pages_workflow
  
-# execute this workflow automatically when we push to master
+# execute this workflow automatically when we push to dev
 on:
   push:
-    branches: [ main ]
+    branches:
+      - develop
+    paths:
+    # We only need to update the docs if python files have changed.
+      - '**.py'
+  workflow_dispatch:
  
 jobs:
  
